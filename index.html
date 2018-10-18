@@ -2,26 +2,121 @@
    
 
 <center>
+	<!--  
 <pre id="output"></pre>
-
-<img width="800" id="mascara" src="https://raw.githubusercontent.com/jcastillovnz/PRUEBA-COLOR/master/img/masks.png" crossorigin="anonymous" >
-
-
-<img width="800" id="mascara" src="https://raw.githubusercontent.com/jcastillovnz/PRUEBA-COLOR/master/img/masks.png" crossorigin="anonymous" >
+-->
+<div id="contenedor">
 
 
+<img width="800" id="fondo" class="fondo"    src="https://raw.githubusercontent.com/jcastillovnz/PRUEBA-COLOR/master/img/fondo.png" crossorigin="anonymous" >
+
+
+<img width="800"  id="mascara" src="https://raw.githubusercontent.com/jcastillovnz/PRUEBA-COLOR/master/img/masks.png" crossorigin="anonymous" >
 
 
 
 
-<script src="js/script.js"></script>
+<img width="800"  id="figura1" src="https://raw.githubusercontent.com/jcastillovnz/PRUEBA-COLOR/master/img/figura1.png" crossorigin="anonymous" >
+
+<img width="800"  id="figura2" src="https://raw.githubusercontent.com/jcastillovnz/PRUEBA-COLOR/master/img/figura2.png" crossorigin="anonymous" >
+
+
+<img width="800"  id="figura3" src="https://raw.githubusercontent.com/jcastillovnz/PRUEBA-COLOR/master/img/figura3.png" crossorigin="anonymous" >
+
+
+
+<img width="800"  id="figura4" src="https://raw.githubusercontent.com/jcastillovnz/PRUEBA-COLOR/master/img/figura4.png" crossorigin="anonymous" >
+
+
+</div>
+
+
+
+
+
 
 
 
 </center>
 
 
+<script src="js/script.js"></script>
 
+
+<style type="text/css">
+	
+#contenedor {
+width: 800px; 
+margin: 0 auto; 
+text-align: left; 
+
+
+}
+
+
+
+#fondo{
+ z-index: 1;
+ position: absolute;
+
+
+
+
+}
+
+
+#mascara{
+	position: absolute;
+ z-index: 7;
+
+
+-o-mix-blend-mode: multiply;
+	-ms-mix-blend-mode: multiply;
+	-moz-mix-blend-mode: multiply;
+	mix-blend-mode: multiply;
+	-webkit-mix-blend-mode: multiply;
+
+opacity:0.100; /* Opacidad 60% */
+}
+
+
+#figura1{
+	display: none;
+	position: absolute;
+ z-index:3;
+
+
+}
+
+#figura2{
+	display: none;
+	position: absolute;
+ z-index:4;
+
+}
+
+#figura3{
+	display: none;
+	position: absolute;
+ z-index:5;
+
+
+}
+
+#figura4{
+	display: none;
+	position: absolute;
+ z-index:6;
+
+}
+
+
+
+
+
+
+
+</style>
 
 
 
