@@ -58,10 +58,21 @@ figura1.style.display = "block";
 
 //FIGURA 1
 
+}
 
+else
+{
 
+ var figura1 = document.getElementById("figura1");
+figura1.style.display = "none";
 
 }
+
+
+
+
+
+
 
 if (hex == "#0e378d") {
 
@@ -71,6 +82,17 @@ figura2.style.display = "block";
 
 
 }
+else
+{
+
+ var figura2 = document.getElementById("figura2");
+figura2.style.display = "none";
+
+}
+
+
+
+
 
 
 
@@ -82,12 +104,16 @@ figura3.style.display = "block";
 
 //FIGURA 3
 
+}
+else
+{
 
-
-
-
+ var figura3 = document.getElementById("figura3");
+figura3.style.display = "none";
 
 }
+
+
 
 
 
@@ -96,20 +122,21 @@ if (hex == "#d83232") {
  var figura4 = document.getElementById("figura4");
 figura4.style.display = "block";
 
-
 //FIGURA 4
 
+}
 
+else
+{
+
+ var figura4 = document.getElementById("figura4");
+figura4.style.display = "none";
 
 }
 
 
 
 
-
-
-
-//alert( rgbToHex(0, 51, 255) ); // #0033ff
 
 
 
@@ -120,3 +147,6 @@ figura4.style.display = "block";
 
                 
 });
+
+
+
