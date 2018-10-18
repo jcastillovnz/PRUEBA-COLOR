@@ -2,7 +2,7 @@
 const img= document.getElementById('mascara');
 const output= document.getElementById('output');
 
-img.addEventListener('click', function (e) {
+img.addEventListener('mousemove', function (e) {
   let ctx;
   if(!this.canvas) {
       this.canvas = document.createElement('canvas');
